@@ -1,0 +1,1 @@
+All the integers in the files are stored in the MSB first (high endian) format used by most non-Intel processors. Users of Intel processors and other low-endian machines must flip the bytes of the header. (http://yann.lecun.com/exdb/mnist/)
