@@ -7,6 +7,8 @@ from bitstring import BitArray
 
 fname = 'image.jpg'
 
+
+
 with open(fname, 'r+b') as fh:
     byte_map = [ord(b) for b in fh.read(4)]
     byte_list = [byte_map[0], byte_map[1], byte_map[2], byte_map[3]]
